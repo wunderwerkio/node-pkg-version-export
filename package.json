@@ -4,7 +4,7 @@
   "description": "Export node package version to a file.",
   "license": "MIT",
   "bin": {
-    "node-pkg-version-export": "./bin/node-pkg-version-export.mjs"
+    "node-pkg-version-export": "./bin/node-pkg-version-export"
   },
   "files": [
     "bin",
