@@ -1,0 +1,29 @@
+{
+  "name": "@wunderwerk/node-pkg-version-export",
+  "version": "0.0.0",
+  "description": "Export node package version to a file.",
+  "license": "MIT",
+  "bin": {
+    "node-pkg-version-export": "./bin/node-pkg-version-export.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7"
+  },
+  "scripts": {
+    "format:check": "prettier --check bin/node-pkg-version-export",
+    "format:write": "prettier --write bin/node-pkg-version-export",
+    "version-package": "pnpm run format:check && changeset version",
+    "publish-package": "pnpm run format:check && changeset publish",
+    "prepare": "husky install"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@wunderwerk/node-pkg-version-export": "0.0.0"
+  },
+  "changesets": []
+}
