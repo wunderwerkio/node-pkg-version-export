@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "wunderwerkio/ts-functional"
+      "repo": "wunderwerkio/node-pkg-version-export"
     }
   ],
   "commit": false,
