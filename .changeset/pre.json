@@ -4,5 +4,7 @@
   "initialVersions": {
     "@wunderwerk/node-pkg-version-export": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "pretty-moles-dress"
+  ]
 }
